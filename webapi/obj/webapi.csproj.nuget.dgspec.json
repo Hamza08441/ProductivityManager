@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hamza\\source\\repos\\ProductivityManager\\webapi\\webapi.csproj": {}
+    "C:\\Users\\nexus\\OneDrive\\Desktop\\ProductivityManager\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hamza\\source\\repos\\ProductivityManager\\webapi\\webapi.csproj": {
+    "C:\\Users\\nexus\\OneDrive\\Desktop\\ProductivityManager\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hamza\\source\\repos\\ProductivityManager\\webapi\\webapi.csproj",
+        "projectUniqueName": "C:\\Users\\nexus\\OneDrive\\Desktop\\ProductivityManager\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\hamza\\source\\repos\\ProductivityManager\\webapi\\webapi.csproj",
-        "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hamza\\source\\repos\\ProductivityManager\\webapi\\obj\\",
+        "projectPath": "C:\\Users\\nexus\\OneDrive\\Desktop\\ProductivityManager\\webapi\\webapi.csproj",
+        "packagesPath": "C:\\Users\\nexus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nexus\\OneDrive\\Desktop\\ProductivityManager\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nexus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

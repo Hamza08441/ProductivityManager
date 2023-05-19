@@ -18,7 +18,7 @@ export default class App extends Component {
                 <thead>
                     <tr>
                         <th>Date</th>
-                        <th>Temp. (C)</th>
+                        <th>Temp.fg (C)</th>
                         <th>Temp. (F)</th>
                         <th>Summary</th>
                     </tr>
