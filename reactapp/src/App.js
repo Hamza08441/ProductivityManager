@@ -6,18 +6,55 @@ import {
 } from "react-router-dom";
 import LoginPage from './Pages/Login';
 
-function App() {
-    return (
-        <div className="min-h-full h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-md w-full space-y-8">
-                <BrowserRouter>
-                    <Routes>
-                        <Route path="/" element={<LoginPage />} />
-                    </Routes>
-                </BrowserRouter>
+export default class App extends Component {
+    static displayName = App.name;
+
+    constructor(props) {
+        super(props);
+        this.state = { forecasts: [], loading: true };
+    }
+
+    componentDidMount() {
+        this.populateWeatherData();
+    }
+
+    static renderForecastsTable(forecasts) {
+        return (
+            <table className='table table-striped' aria-labelledby="tabelLabel">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Temp. (C)</th>
+                        <th>Temp. (F)</th>
+                        <th>Summary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {forecasts.map(forecast =>
+                        <tr key={forecast.date}>
+                            <td>{forecast.date}</td>
+                            <td>{forecast.temperatureC}</td>
+                            <td>{forecast.temperatureF}</td>
+                            <td>{forecast.summary}</td>
+                        </tr>
+                    )}
+                </tbody>
+            </table>
+        );
+    }
+
+    render() {
+        let contents = this.state.loading
+            ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
+            : App.renderForecastsTable(this.state.forecasts);
+
+        return (
+            <div>
+                <h1 id="tabelLabel" >Weather forecast</h1>
+                <p>This component demonstrates fetching data from the server.</p>
+                {contents}
             </div>
-        </div>
-    );
-}
+        );
+    }
 
 export default App;
