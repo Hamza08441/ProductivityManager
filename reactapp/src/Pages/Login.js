@@ -1,5 +1,6 @@
 import Header from "../components/Header"
 import Login from "../components/Login"
+import BasicTextFields from "../components/Test";
 
 export default function LoginPage() {
     return (
@@ -11,6 +12,7 @@ export default function LoginPage() {
                 linkUrl="/signup"
             />
             <Login />
+            <BasicTextFields></BasicTextFields>
         </>
     )
 }
