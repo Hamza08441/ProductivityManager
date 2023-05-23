@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using webapi.services.EmployeeService;
 
 namespace webapi.Controllers;
 
@@ -12,9 +13,10 @@ public class WeatherForecastController : ControllerBase
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
-
-    public WeatherForecastController(ILogger<WeatherForecastController> logger)
+    private EmployeeService _employeeService;
+    public WeatherForecastController(ILogger<WeatherForecastController> logger, EmployeeService employeeService)
     {
+        _employeeService = employeeService;
         _logger = logger;
     }
 
