@@ -3911,19 +3911,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hamza\\.nuget\\packages\\": {}
+    "C:\\Users\\nexus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hamza\\OneDrive\\Desktop\\New folder (3)\\ProductivityManager\\webapi\\webapi.csproj",
+      "projectUniqueName": "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "C:\\Users\\hamza\\OneDrive\\Desktop\\New folder (3)\\ProductivityManager\\webapi\\webapi.csproj",
-      "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hamza\\OneDrive\\Desktop\\New folder (3)\\ProductivityManager\\webapi\\obj\\",
+      "projectPath": "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
+      "packagesPath": "C:\\Users\\nexus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nexus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3931,6 +3931,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3991,7 +3992,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

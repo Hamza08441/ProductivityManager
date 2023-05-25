@@ -12,7 +12,8 @@ namespace webapi.Models
         public Guid leader_id { get; set; }
 
         [ForeignKey("leader_id")]
-        public Users user { get; set; }
 
+        public Users user { get; set; }
+      
     }
 }
