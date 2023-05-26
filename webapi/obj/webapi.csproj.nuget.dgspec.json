@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\webapi.csproj": {}
+    "E:\\projects\\principle project\\ProductivityManager\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\webapi.csproj": {
+    "E:\\projects\\principle project\\ProductivityManager\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
+        "projectUniqueName": "E:\\projects\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
+        "projectPath": "E:\\projects\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\nexus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\obj\\",
+        "outputPath": "E:\\projects\\principle project\\ProductivityManager\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nexus\\AppData\\Roaming\\NuGet\\NuGet.Config",

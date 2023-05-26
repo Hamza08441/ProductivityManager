@@ -13,6 +13,10 @@ builder.Services.AddTransient<IEmployeeService, EmployeeService>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddCors(options=>
+{ });
+var provider =builder.Services.BuildServiceProvider();
+var configuration = provider.GetService<IConfiguration>();
 
 var app = builder.Build();
 

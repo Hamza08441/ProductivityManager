@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7sK9pkjJy8Xx0znkVEHs2fED8gChCRj3G2teNWIHTtRI3tnFPsUQaUQ6TvgjJMyXekIK8ycAm3ZMhiU6MzmTQ==",
+  "dgSpecHash": "dySQQDLfp7ATbo8284RzNnc0xHRJ5PaBVMNyaVVaMp9WdneABILFiUkLMJEI987YDRWG+p43gjbAlTwDODHMlQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nexus\\OneDrive\\Documents\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
+  "projectFilePath": "E:\\projects\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nexus\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nexus\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
