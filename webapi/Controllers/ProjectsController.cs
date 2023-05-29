@@ -20,5 +20,12 @@ namespace webapi.Controllers
 
             return Ok(_projectsService.addProject(projects));
         }
+        [HttpPut(nameof(edit))]
+        public IActionResult edit(Guid projectId, ProjectsVM projects)
+        {
+
+
+            return Ok(_projectsService.editProjects(projectId, projects));
+        }
     }
 }

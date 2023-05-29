@@ -20,5 +20,11 @@ namespace webapi.Controllers
         {
             return Ok(_employeeService.addEmployee(_employeeService.checkEmail(employees)));
         }
+
+        [HttpPut(nameof(edit))]
+        public IActionResult edit(EmployeesVM employees, Guid id)
+        {
+            return Ok(_employeeService.editEmployee(id, _employeeService.checkEmail(employees)));
+        }
     }
 }

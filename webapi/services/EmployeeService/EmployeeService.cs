@@ -25,7 +25,26 @@ namespace webapi.services.EmployeeService
             _context.SaveChanges();
             return newEmployee;
         }
-        
+
+        public Employees editEmployee(Guid employeeId, EmployeesVM employeesVM)
+        {
+            if (employeesVM == null || employeeId == null)
+                return null;
+
+            Employees existingEmployee = _context.employees.FirstOrDefault(e => e.id == employeeId);
+            if (existingEmployee == null)
+                return null;
+
+            existingEmployee.first_name = employeesVM.first_name;
+            existingEmployee.last_name = employeesVM.last_name;
+            existingEmployee.email = employeesVM.email;
+
+            _context.SaveChanges();
+
+            return existingEmployee;
+        }
+
+
         public EmployeesVM checkEmail(EmployeesVM employeesVM)
         {
             if(_context.employees.Where(x => x.email == employeesVM.email).FirstOrDefault() == null)

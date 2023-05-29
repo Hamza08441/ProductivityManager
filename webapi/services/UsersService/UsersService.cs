@@ -15,7 +15,6 @@ namespace webapi.services.UsersService
         {
             Users newUsers = new Users()
             {
-
                 id = Guid.NewGuid(),
                 name = usersVM.name,
                 email = usersVM.email,
@@ -27,13 +26,23 @@ namespace webapi.services.UsersService
             _context.users.Add(newUsers);
             _context.SaveChanges();
             return newUsers;
-
-
-    
-            
         }
+        public Users editUser(Guid userId, UsersVM usersVM)
+        {
+            Users existingUser = _context.users.FirstOrDefault(u => u.id == userId);
 
+            if (existingUser != null)
+            {
+                existingUser.name = usersVM.name;
+                existingUser.email = usersVM.email;
+                existingUser.password = usersVM.password;
+                existingUser.remember_token = usersVM.remember_token;
+                existingUser.user_type_id = usersVM.user_type_id;
+
+                _context.SaveChanges();
+            }
+
+            return existingUser;
+        }
     }
-
-
 }

@@ -7,5 +7,6 @@ namespace webapi.services.EmployeeService
     {
         Employees addEmployee(EmployeesVM employeesVM);
         EmployeesVM checkEmail(EmployeesVM employeesVM);
+        Employees editEmployee(Guid employeeId, EmployeesVM employeesVM);
     }
 }

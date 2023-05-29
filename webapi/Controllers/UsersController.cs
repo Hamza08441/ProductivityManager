@@ -17,5 +17,11 @@ namespace webapi.Controllers
         {
             return Ok(_UsersService.addUsers(users));
         }
+
+        [HttpPut(nameof(edit))]
+        public IActionResult edit(Guid id, UsersVM users)
+        {
+            return Ok(_UsersService.editUser(id, users));
+        }
     }
 }
