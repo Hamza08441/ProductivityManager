@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\webapi",
+    "\\webapi\\Models",
+    "\\webapi\\Properties",
+    "\\webapi\\services",
+    "\\webapi\\services\\EmployeeService",
+    "\\webapi\\services\\ProjectsService",
+    "\\webapi\\services\\UsersService",
+    "\\webapi\\ViewModels"
+  ],
+  "SelectedNode": "\\webapi\\services\\UsersService\\UsersService.cs",
+  "PreviewInSolutionExplorer": false
+}

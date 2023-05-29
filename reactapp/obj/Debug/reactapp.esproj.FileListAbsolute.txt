@@ -2,3 +2,7 @@ C:\Users\hamza\source\repos\ProductivityManager\reactapp\obj\Debug\reactapp.espr
 C:\Users\hamza\source\repos\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
 C:\Users\hamza\OneDrive\Desktop\New folder (3)\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
 C:\Users\hamza\OneDrive\Desktop\New folder (3)\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
+C:\Users\nexus\OneDrive\Documents\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\nexus\OneDrive\Documents\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
+E:\projects\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
+E:\projects\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
