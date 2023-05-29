@@ -28,6 +28,10 @@ namespace webapi.services.ProjectsService
             _context.SaveChanges();
             return newProjects;
         }
+        public Projects FindProjectById(Guid projectID)
+        {
+            return _context.projects.FirstOrDefault(e => e.id == projectID);
+        }
 
     }
 

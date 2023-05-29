@@ -8,10 +8,10 @@ namespace webapi.Controllers
     [Route("[controller]")]
     public class ProjectsController : Controller
     {
-         private readonly IProjectsService _projectsService;
-          public ProjectsController(IProjectsService projectsService) {
+        private readonly IProjectsService _projectsService;
+        public ProjectsController(IProjectsService projectsService) {
 
-            _projectsService=projectsService;
+            _projectsService = projectsService;
         }
         [HttpPost(nameof(add))]
         public IActionResult add(ProjectsVM projects)
@@ -19,6 +19,11 @@ namespace webapi.Controllers
 
 
             return Ok(_projectsService.addProject(projects));
+        }
+        [HttpPost(nameof(find))]
+        public IActionResult find(Guid projectID)
+        {
+            return Ok(_projectsService.FindProjectById(projectID));
         }
     }
 }

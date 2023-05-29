@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using webapi.Models;
 using webapi.services.EmployeeService;
 using webapi.ViewModels;
 
@@ -17,6 +18,11 @@ namespace webapi.Controllers
         public IActionResult add(EmployeesVM employees)
         {
             return Ok(_employeeService.addEmployee(_employeeService.checkEmail(employees)));
+        }
+        [HttpPost(nameof(find))]
+        public IActionResult find(Guid employeeId) {
+            return Ok(_employeeService.FindEmployeeById(employeeId));
+        
         }
     }
 }
