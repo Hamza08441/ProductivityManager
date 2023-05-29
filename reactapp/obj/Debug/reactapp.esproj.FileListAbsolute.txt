@@ -6,3 +6,5 @@ C:\Users\nexus\OneDrive\Documents\principle project\ProductivityManager\reactapp
 C:\Users\nexus\OneDrive\Documents\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
 E:\projects\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
 E:\projects\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache
+D:\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.SuggestedBindingRedirects.cache
+D:\principle project\ProductivityManager\reactapp\obj\Debug\reactapp.esproj.CoreCompileInputs.cache

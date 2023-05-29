@@ -8,7 +8,7 @@ namespace webapi.services.EmployeeService
     {
         private readonly dbContext _context;
         public EmployeeService(dbContext context) {
-        _context = context;
+            _context = context;
         }
         public Employees addEmployee(EmployeesVM employeesVM)
         {
@@ -26,30 +26,18 @@ namespace webapi.services.EmployeeService
             return newEmployee;
         }
 
-        public Employees editEmployee(Guid employeeId, EmployeesVM employeesVM)
+        public EmployeesVM checkEmail(EmployeesVM employeesVM)
         {
-            if (employeesVM == null || employeeId == null)
-                return null;
-
-            Employees existingEmployee = _context.employees.FirstOrDefault(e => e.id == employeeId);
-            if (existingEmployee == null)
-                return null;
-
-            existingEmployee.first_name = employeesVM.first_name;
-            existingEmployee.last_name = employeesVM.last_name;
-            existingEmployee.email = employeesVM.email;
-
-            _context.SaveChanges();
-
-            return existingEmployee;
+            if (_context.employees.Where(x => x.email == employeesVM.email).FirstOrDefault() == null)
+                return employeesVM;
+            return null;
         }
 
 
-        public EmployeesVM checkEmail(EmployeesVM employeesVM)
+
+        public Employees FindEmployeeById(Guid employeeId)
         {
-            if(_context.employees.Where(x => x.email == employeesVM.email).FirstOrDefault() == null)
-                return employeesVM;
-            return null;
+            return _context.employees.FirstOrDefault(e => e.id == employeeId);
         }
     }
 }

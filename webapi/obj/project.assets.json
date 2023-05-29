@@ -3911,19 +3911,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hamza\\.nuget\\packages\\": {}
+    "C:\\Users\\nexus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hamza\\OneDrive\\Desktop\\New folder (3)\\ProductivityManager\\webapi\\webapi.csproj",
+      "projectUniqueName": "D:\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
       "projectName": "webapi",
-      "projectPath": "C:\\Users\\hamza\\OneDrive\\Desktop\\New folder (3)\\ProductivityManager\\webapi\\webapi.csproj",
-      "packagesPath": "C:\\Users\\hamza\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hamza\\OneDrive\\Desktop\\New folder (3)\\ProductivityManager\\webapi\\obj\\",
+      "projectPath": "D:\\principle project\\ProductivityManager\\webapi\\webapi.csproj",
+      "packagesPath": "C:\\Users\\nexus\\.nuget\\packages\\",
+      "outputPath": "D:\\principle project\\ProductivityManager\\webapi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\hamza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\nexus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
